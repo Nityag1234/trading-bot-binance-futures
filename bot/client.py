@@ -11,7 +11,7 @@ class BinanceFuturesClient:
         self.client = Client(
             api_key=os.getenv("BINANCE_API_KEY"),
             api_secret=os.getenv("BINANCE_API_SECRET"),
-            testnet=True  # 🔥 THIS IS REQUIRED
+            testnet=True  
         )
 
         # Futures Testnet URL

@@ -29,9 +29,9 @@ def main():
     try:
         print("\nPlacing order...")
         execute_order(client, args, logger)
-        print("✅ Order placed successfully")
+        print("Order placed successfully")
     except Exception as e:
-        print(f"❌ Failed to place order: {str(e)}")
+        print(f"Failed to place order: {str(e)}")
 
 if __name__ == "__main__":
     main()
